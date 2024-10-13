@@ -1,0 +1,7 @@
+img.add_image {
+    height: auto;
+    max-height: 200px;
+    width: auto;
+    max-width: 400px;
+    margin-top: 20px;
+}

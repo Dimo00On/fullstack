@@ -1,0 +1,9 @@
+img.exit_button {
+    height: 35px;
+}
+
+div.exit_button {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+}

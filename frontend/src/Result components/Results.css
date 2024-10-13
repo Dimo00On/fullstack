@@ -1,0 +1,40 @@
+img.navigate_buttons {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+span.navigate_buttons {
+    text-align: center;
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 20px;
+}
+
+div.navigate_buttons {
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 30px;
+    width: 100%;
+}
+
+button.navigate_buttons {
+    height: 30px;
+}
+
+div.whole_result_block {
+    position: relative;
+    height: 450px;
+}
+
+div.results {
+    margin-left: 40px;
+    margin-right: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}

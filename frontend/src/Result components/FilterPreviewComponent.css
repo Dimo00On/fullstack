@@ -1,0 +1,17 @@
+span.filter {
+    background-color: grey;
+    border-radius: 30%;
+    font-size: 20px;
+    text-align: center;
+    margin: 5%;
+    height: 80%;
+    line-height: 2.5;
+    display: block;
+    color:white;
+    text-decoration: none;
+}
+
+.filter a {
+    color: black;
+    text-decoration: none;
+}

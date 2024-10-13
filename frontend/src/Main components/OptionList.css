@@ -1,0 +1,29 @@
+.dropdown-content0 {
+  display: none;
+  z-index: 1;
+  height: 200%;
+}
+
+.dropdown-content1 {
+  display: none;
+  z-index: 1;
+  height: 200%;
+}
+
+.dropdown-content3 {
+  display: none;
+  z-index: 1;
+  height: 200%;
+}
+
+.dropdown0:hover .dropdown-content0 {
+  display: grid;
+}
+
+.dropdown1:hover .dropdown-content1 {
+  display: grid;
+}
+
+.dropdown3:hover .dropdown-content3 {
+  display: grid;
+}

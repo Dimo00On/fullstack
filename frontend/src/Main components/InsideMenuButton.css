@@ -1,0 +1,25 @@
+button.inside_menu:nth-child(odd) {
+  background-color: rgba(255, 102, 0, 1);
+}
+
+button.inside_menu:nth-child(even) {
+  background-color: rgba(255, 90, 90, 1);
+}
+
+button.inside_menu {
+  border: none;
+  font-size: 18px;
+}
+
+button.link_button {
+  background-color: inherit;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0px;
+  font-size: 18px;
+}
+
+div.inside_menu {
+  z-index: inherit;
+}

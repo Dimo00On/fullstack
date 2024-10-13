@@ -1,0 +1,22 @@
+img.one_result {
+    height: 130px;
+    width: 130px;
+    max-height: 130px;
+    max-width: 130px;
+    height: auto;
+}
+
+div.one_result {
+    height: 130px;
+    width: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+span.one_result {
+    margin-top: 10px;
+}

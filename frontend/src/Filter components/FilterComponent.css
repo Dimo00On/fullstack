@@ -1,0 +1,26 @@
+img.filter_component {
+    height: 16px;
+}
+
+button.filter_component {
+    /* height: 20px; */
+    margin-right: 10px;
+
+}
+
+span.filter_component_text {
+    text-align: center;
+    color:white;
+}
+
+span.filter_component {
+    background-color: grey;
+    border-radius: 30%;
+    font-size: 20px;
+    margin: 5%;
+    height: 80%;
+    line-height: 2.5;
+    display: grid;
+    grid-template-columns: 1fr auto; 
+    align-items: center;
+}

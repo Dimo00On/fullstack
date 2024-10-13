@@ -1,0 +1,48 @@
+button.search {
+  z-index: inherit;
+  display: flex;
+  background-color: rgba(255, 90, 90, 0.72);
+  text-align: left;
+  border: 1px solid;
+}
+  
+img.search {
+  grid-area: y;
+  z-index: inherit;
+  width: 40px;
+  vertical-align: middle;
+  margin-right: 5%;
+}
+  
+span.search {
+  z-index: inherit;
+  font-size: 130%;
+  vertical-align: middle;
+  margin-right: 24px;
+}
+
+div.search {
+  z-index: inherit;
+  grid-area: y;
+  margin-left: 10%;
+  margin-right: 50%;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  display: block;
+}
+
+form.search {
+  display: grid;
+  z-index: 0;
+  grid-template-areas: "x y";
+  margin-left: 20%;
+  margin-right: 10%;
+  margin-top: 5%;
+}
+
+input.search {
+  z-index: inherit;
+  grid-area: x;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
